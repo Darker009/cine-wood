@@ -1,0 +1,97 @@
+.home {
+  background-color: #ffffff;
+  color: #555454;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero {
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #C72C48;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #545454;
+  margin: 1rem 0;
+}
+
+.cta-button {
+  background-color: #3E2F5B;
+  color: #EAEAEA;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #FFD700;
+  color: #0B1D2A;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature-card {
+  background-color: #1F2A38;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 250px;
+  transition: transform 0.3s ease;
+  color: #EAEAEA;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+/* 🎬 Movie Grid Styles */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.movie-card {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #C72C48;
+}
+
+.movie-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #3E2F5B;
+}
+
+.rating {
+  font-size: 1.2rem;
+  color: #FFD700;
+  margin-bottom: 1rem;
+}
